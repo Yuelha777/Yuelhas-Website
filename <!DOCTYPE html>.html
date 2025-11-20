@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+
+<!-- ===== CAROUSEL STYLES ===== -->
+<style>
+  .carousel-wrapper {
+    display: flex;
+    justify-content: center;
+    background: #f0f0f0;
+    padding: 40px 0;
+  }
+
+  .carousel {
+    width: 600px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+
+  .slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .slides img {
+    width: 600px;
+    height: 350px;
+    object-fit: cover;
+  }
+
+  .btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+  }
+
+  #prev { left: 10px; }
+  #next { right: 10px; }
+</style>
+
+
+<!-- ===== GENERAL WEBSITE STYLES ===== -->
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #faf7f2;
+        color: #333;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    nav {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        background-color: #ffffff;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    nav .logo {
+        font-size: 1.8em;
+        font-weight: bold;
+        color: #333;
+        text-decoration: none;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #333;
+        margin-left: 20px;
+        font-weight: 500;
+    }
+
+    nav a:hover {
+        color: #3366ff;
+    }
+
+    section {
+        padding: 80px 20px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 1.2em;
+        line-height: 1.6;
+    }
+</style>
+
+</head>
+<body>
+
+<!-- ===== CAROUSEL AT TOP ===== -->
+<div class="carousel-wrapper">
+  <div class="carousel">
+    <div class="slides" id="slides">
+      <img src="IMG_3725.HEIC" alt="1">
+      <img src="7685.jpeg" alt="2">
+      <img src="IMG_8292.jpg" alt="3">
+    </div>
+
+    <button class="btn" id="prev">&#10094;</button>
+    <button class="btn" id="next">&#10095;</button>
+  </div>
+</div>
+
+<!-- ===== NAVBAR ===== -->
+<nav>
+    <a href="#home" class="logo">YuelhasWebsite</a>
+    <div>
+        <a href="#Introduction">Introduction</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Gallery</a>
+        <a href="#Education">Education</a>
+    </div>
+</nav>
+
+<!-- ===== SECTIONS ===== -->
+<section id="Introduction">
+    <h1>About Me</h1>
+    <p><strong>"Stay close to what feels like sunshine."</strong> </p>
+    <p>Hi! My name is Yuelha Yeshey Tshogyal and I was born on the 20th of August, 2011 on a very sunny day! I completed my primary education at Sersang Primary School and Thimphu Primary School, which are both located in Thimphu. I am currently studying in the 9th grade at <strong>The Royal Academy, Paro, Pangbesa</strong> I have a younger sister who is currently studying in the 4th grade at Druk School,Thimphu.
+    I also have a stepsister, who is currently studying in the 9th grade and Lungtenzampa Higher Secondary School, Thimphu.</p>
+    <p></p>
+    <p>Growing up, I have always been very enthusiastic about reading. I love reading different genre of books such as history, romance, and mystery. I also love playing chess. It helps me think clearly, focus better, and make smart decisions. Chess also teaches me patience, planning, and solving problems, and I can use these skills in school and everyday life. I also like reading tarot cards. It may sound weird at first, but it’s something I really enjoy because it helps me reflect on different situations and think deeply. Reading tarot encourages me to use my intuition, consider different perspectives, and explore creative ways of thinking. It’s also a fun and relaxing activity that inspires curiosity and self-reflection, and it gives me a way to connect with my thoughts and ideas in a meaningful way.</p>
+    <p>I really enjoy watching football because it’s exciting, teaches me strategy, and inspires me with teamwork and skill. My favourite football club is FC Barcelona, one of the biggest football clubs in the world. I love watching their matches because their style of play is exciting and full of skill. I enjoy seeing how the players work together as a team and score amazing goals. Following Barcelona has made me more interested in football and has taught me the value of teamwork, practice, and never giving up. My favourite football player is Frenkie De Jong. I really like Frenkie de Jong because he is an amazing football player with great skills and intelligence on the field. I enjoy watching how he controls the ball, passes accurately, and helps his team both in attack and defense. His calmness under pressure and ability to make smart decisions during matches inspire me. Frenkie de Jong is not only talented but also works hard and shows dedication, which makes him my favorite player to watch. </p>
+    
+</section>
+
+<section id="Projects">
+    <h1>Projects done so far</h1>
+    <h2><strong>Folktale</strong></h2>
+    <a href="https://docs.google.com/document/d/1vI0fHG4K2M2cF4St6X1LO0h661DxwWaykYE2ujSnnQA/edit?usp=sharing">Link to white paper</a>
+    <p>In folktale, The 7 of us have created a white paper on how we are going to collect Buddhist folktales on astronomy and create a children's illustrated storybook. It explains Bhutan's deep cultural connection to astronomy. The storybook will teach kids about the sky, moon planets, constellations, and galaxies in simple language while also sharing Bhutanese beliefs like the lunar calendar and zodiac animals. while also sharing Bhutanese beliefs like the lunar calendar and zodiac animals. The overall goal is to make learning of the night sky enjoyable and to help children appreciate both science and Bhutanese culture.
+     <h2><strong>Abstract</strong></h2>
+     <a href="https://docs.google.com/document/d/1VckKG9rMb2w0RBVWTEuEG4r0wApNxYTm5_sRK48Oq8k/edit?usp=sharing">Link for Abstract</a>
+     <p>
+
+
+
+My team and I developed an abstract for the Mission Idea Contest (MIC) 2026, proposing a Night-Sky Storytelling and Astrophotography Experience. We designed the project to combine Bhutanese cultural knowledge with basic space applications, using satellite-based weather data and sky-visibility forecasts to plan optimal observation times. Guided sessions would introduce visitors to constellations, planets, and seasonal sky patterns, while sharing Bhutanese folktales and cultural stories connected to the night sky.
+
+We also proposed creating a Night-Sky Catalogue, in digital and print form, that lists weather conditions, recommended viewing times, visible constellations, ideal locations, and the corresponding cultural narratives. This tool would allow tourists, youth groups, and school programs to easily plan their night-sky experiences while learning both the science and the traditional stories behind what they see.
+
+The project aims to generate short-term economic benefits through stargazing sessions, astrophotography workshops, and cultural storytelling events, while creating long-term opportunities in rural development, youth employment, and entrepreneurship. By linking Bhutanese heritage with simple space applications, our concept is low-cost, scalable, and sustainable, providing a unique tourism experience that preserves cultural traditions and supports creative industries.
+
+
+
+
+<section id="portfolio">
+    <h1>Portfolio</h1>
+    <p>Check out some of my projects and creations.</p>
+</section>
+
+<section id="Photo Gallery">
+    <h1>Contact</h1>
+    <p>You can reach me via email or social media.</p>
+</section>
+
+<section id="Education">
+    <h1>hi</h1>
+    <p>You can reach me via email or social media.</p>
+</section>
+
+
+<!-- ===== JAVASCRIPT FOR CAROUSEL ===== -->
+<script>
+  const slides = document.getElementById("slides");
+  let index = 0;
+
+  document.getElementById("next").onclick = () => {
+    index = (index + 1) % 3;
+    slides.style.transform = `translateX(-${index * 600}px)`;
+  };
+
+  document.getElementById("prev").onclick = () => {
+    index = (index - 1 + 3) % 3;
+    slides.style.transform = `translateX(-${index * 600}px)`;
+  };
+</script>
+
+</body>
+</html>
