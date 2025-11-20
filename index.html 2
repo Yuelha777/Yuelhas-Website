@@ -122,9 +122,9 @@
 <div class="carousel-wrapper">
   <div class="carousel">
     <div class="slides" id="slides">
-      <img src="image-45.png" alt="1">
-      <img src="IMG_3725.HEIC" alt="2">
-      <img src="IMG_7685.jpeg" alt="3">
+      <img src="IMG_3725.HEIC" alt="1">
+      <img src="7685.jpeg" alt="2">
+      <img src="IMG_8292.jpg" alt="3">
     </div>
 
     <button class="btn" id="prev">&#10094;</button>
